@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;}
+
+.headerlogo{width: 40%}
+img{
+    object-position: top;
+}
+li{list-style: none;}
+
+body{
+    background: linear-gradient(145deg, #6ea6e1, #83c5ff);
+    font-size: 16px;
+    /* color: #333; */
+}
+header{
+    /* padding: 22px 0; */
+    box-shadow: 0px 6px 4px #7794af;
+    background: white;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{justify-content: center;}
+.container{
+    width: calc( 100% - 200px);
+    margin: auto;
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo a {}
+.logo a img{}
+.logo a h1{font-family: 'Grenze Gotisch', cursive;text-decoration: none;padding-left: 15px;}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+
+nav{}
+nav ul{
+    justify-content: flex-end;
+}
+.col{
+    padding: 10px;
+    width: 33.33%;
+    flex: 0 0  auto;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+}
+nav ul li a:hover{}
+nav{
+    width: 80%;
+    flex: 0 0  auto;
+}
+
+section{
+    padding: 80px 0;
+}
+/*****signup form section css*****/
+.signup-form{}
+.signup{
+             background: linear-gradient(145deg, #6ea6e1, #83c5ff);
+             box-shadow:  10px 10px 22px #5a88b9, 
+             -10px -10px 22px #9ae8ff;
+             color: white;
+             flex: 0 0 auto;
+             width: 38%;
+             padding: 20px;
+             transition-duration: 0.3s;
+             }
+.signup:hover{
+    box-shadow:  10px 10px 22px #9ae8ff,
+             -10px -10px 22px #5a88b9 ;}            
+
+form{}
+form input, form textarea{
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid #f9f3f3;
+    background: #ffffff;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1.5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+form strong{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 16px 2px;
+}
+form label{
+    font-size: 15px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+form textarea{}
+
+form input[type="radio"]{
+    width: auto;
+}
+form input[type="text"]{}
+form input[type="textarea"]{}
+form input[type="checkbox"]{
+    width: auto;
+}
+
+form input[type="submit"]{
+    
+width: auto;
+    
+padding: 12px 14px;
+    
+font-size: 15px;
+    
+color: blue;
+    
+font-weight: 600;
+    
+text-transform: uppercase;
+ } 
+
+form{}
+form p {
+    letter-spacing: 1px;
+}
+form p a{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+form p a:hover{}
+input:focus, textarea:focus{outline: none;}
+
+ /***prtfolio section***/
+
+
+ .portfolio-section{}
+ .project{
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    background: linear-gradient(145deg, #6ea6e1, #83c5ff);
+    box-shadow:  10px 10px 22px #5a88b9, 
+             -10px -10px 22px #9ae8ff;
+}
+ .project img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+ .project h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 22px 5px;
+}
+ .project:hover{
+    opacity: 0.6;
+ }
+
+.about-section{}
+.about-section h1 {
+   color: #fff;
+   font-size: 60px;
+   font-weight: 300;
+   width: 32%;
+   align-items: self-start;
+   padding-left: 36px;
+}
+.about-section p{
+    background: linear-gradient(145deg, #6ea6e1, #83c5ff);
+    box-shadow:  10px 10px 22px #5a88b9, 
+             -10px -10px 22px #9ae8ff;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.about-section p:hover{  
+    box-shadow:-10px -10px 22px #9ae8ff,
+             10px 10px 22px #5a88b9;}
+article{}
+
+.banner{
+             box-shadow:  10px 10px 22px #5a88b9, 
+             -10px -10px 22px #9ae8ff;
+             width: 700px;
+             display: flex;
+             flex-wrap: wrap;
+             margin: auto;
+             padding-right: 99px;
+}
+.banner a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+}
+.banner img{
+        width: 400px;
+        height: 400px;
+}
+
+.banner h1 b{
+    padding-left: 44px;
+    font-weight: 200;
+}
+.banner h1 span{
+    padding-left: 15px;
+}
+.banner .strong2{
+
+}
+.banner p{}
+.banner h3{}
