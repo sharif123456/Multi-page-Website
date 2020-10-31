@@ -41,7 +41,8 @@ header{
 }
 .logo a {}
 .logo a img{}
-.logo a h1{font-family: 'Grenze Gotisch', cursive;text-decoration: none;padding-left: 15px;}
+.logo a h1{font-family: 'Grenze Gotisch', cursive;text-decoration: none;padding-left: 15px;
+color:black;}
 .logo{
     width: 20%;
     flex: 0 0 auto;
